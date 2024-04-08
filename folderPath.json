@@ -1,0 +1,8 @@
+{
+	"Camera":"deleteFolder:DCIM/Camera",
+	"Screenshot":"deleteFolders:DCIM/Screenshots,Pictures/Screenshots",
+	"Download":"deleteFolder:Download",
+	"Snapchat":"DCIM/Snapchat",
+	"Instagram":"deleteFolder:Pictures/Instagram"
+
+}
