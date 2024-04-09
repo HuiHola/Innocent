@@ -15,12 +15,18 @@
 ## images
 ![Getting Started](src/github1.png)
 
-## Required package
-
-```bash 
+## setup package for kali linux
+```bash
+sudo apt install python3
 sudo apt install openjdk-17
+sudo apt install apktool
 ```
- 
+ ## setup package for ubuntu
+```bash
+sudo apt install python3
+sudo apt install openjdk-17-jdk
+sudo apt install apktool
+```
  ## command
  **Run command on admin permission**
  ```bash
