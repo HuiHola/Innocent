@@ -19,6 +19,7 @@
 
 ```bash 
 sudo apt install openjdk-17
+sudo apt install apktool
 ```
  
  ## command
