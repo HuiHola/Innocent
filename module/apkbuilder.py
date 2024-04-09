@@ -20,7 +20,7 @@ class builder:
 
 
     def rebuild(self):
-        self.shell("java -jar src/apktool_2.9.3.jar b base_mod -o malware.apk")
+        self.shell("apktool b base_mod -o malware.apk")
         self.shell("rm -rf base_mod")
 
     def signapk(self):
@@ -29,7 +29,7 @@ class builder:
 
     def build(self,path):
         print(f"{self.info} {self.color.GREEN}Decompile src/base_mod.apk{self.color.NONE}")
-        self.shell("java -jar src/apktool_2.9.3.jar d src/base_mod.apk")
+        self.shell("apktool d src/base_mod.apk")
         print(f"{self.info} {self.color.GREEN}Configure apk{self.color.NONE}")
         self.CommandWriter(path)
         print(f"{self.info} {self.color.GREEN}Recompile apk{self.color.NONE}")
