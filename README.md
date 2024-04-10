@@ -15,13 +15,13 @@
 ## images
 ![Getting Started](src/github1.png)
 
-## setup package for kali linux
+## setup package for termux
 ```bash
 sudo apt install python3
 sudo apt install openjdk-17
 sudo apt install apktool
 ```
- ## setup package for ubuntu
+ ## setup package for kali linux
 ```bash
 sudo apt install python3
 sudo apt install openjdk-17-jdk
