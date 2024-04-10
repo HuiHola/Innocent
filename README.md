@@ -32,7 +32,7 @@ sudo apt install apktool
  ```bash
  git clone https://github.com/HuiHola/Innocent.git
  cd Innocent
- python innocent.py
+ python3 innocent.py
  ``` 
 
 ## 
