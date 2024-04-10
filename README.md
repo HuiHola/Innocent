@@ -30,7 +30,7 @@ sudo apt install apktool
  ## command
  **Run command on admin permission**
  ```bash
- git clone https://github.com/HuiHola/Innocent
+ git clone https://github.com/HuiHola/Innocent.git
  cd Innocent
  python innocent.py
  ``` 
